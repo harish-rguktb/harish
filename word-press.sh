@@ -36,9 +36,9 @@ OS=`uname`                                                              ; export
 # INSTALL lAMP stack
 
 # install Apache and make it on permanently
-#yum -y install httpd
-#service httpd start
-#chkconfig httpd on
+yum -y install httpd
+service httpd start
+chkconfig httpd on
 
 # install PHP
 yum -y install php php-mysql
